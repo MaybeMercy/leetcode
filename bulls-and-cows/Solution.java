@@ -1,7 +1,5 @@
 public class Solution {
   public String getHint(String secret, String guess) {
-
-        // get from internet
         if (secret == null || guess == null || secret.length() != guess.length()) {
             return "";
         }
@@ -35,7 +33,7 @@ public class Solution {
                 } else if (arrA[i] == arrB[j]) {
                     countB++;
                     arrA[i] = ' ';
-                    arrB[j] = ' ';ls
+                    arrB[j] = ' ';
                 }
             }
         }
