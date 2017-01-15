@@ -1,1 +1,1 @@
-leetcode上的一些题解，有自己写的有从其他博客上找的。
+leetcode 刷题打卡 python & java。
